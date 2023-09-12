@@ -16,7 +16,7 @@ function createAnalytics() {
         //method to get number of clicks
         getClicks() {
             //if destroyed
-            if (isDestroyed) return 'Analytics is destroyed'
+            if (isDestroyed) return 'Analytics was destroyed'
 
             return counter
         }
